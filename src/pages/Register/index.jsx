@@ -50,7 +50,10 @@ const Register = () => {
                     progress: undefined,
                     theme: 'dark',
                 });
-                navigate('/');
+                // Explicitly sign out the user after successful registration
+            await authentication.signOut();
+            toast.info('Registered. Please log in.');
+                navigate('/login');
             } else {
                 const errorData = await apiResponse.json();
                 console.error('API Error:', errorData);
