@@ -11,6 +11,8 @@ A modern web application designed to simplify food ordering. With Foodie Express
 - **Order Management**: Tracks order details and saves them to MongoDB.
 - **Responsive UI**: Optimized for all screen sizes.
 
+![Main Page Screenshot](main-page.png)
+
 ---
 
 ## Table of Contents 📋
